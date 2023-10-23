@@ -1,0 +1,8 @@
+.root {
+    max-width: 560px;
+    margin: 120px auto 0;
+}
+
+.spinner {
+    fill: #f1244d;
+}

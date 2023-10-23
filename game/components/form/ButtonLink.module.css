@@ -1,0 +1,18 @@
+.root {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 48px;
+    padding: 0 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-accent-color);
+    background: var(--bg-accent-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+}
+
+.fullWidth {
+    width: 100%;
+}

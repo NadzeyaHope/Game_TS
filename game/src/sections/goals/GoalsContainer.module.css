@@ -1,0 +1,17 @@
+.root {
+    display: flex;
+    max-width: 1200px;
+}
+.content {
+    display: block;
+}
+.IconAdd {
+    display: block;
+    text-align: center;
+}
+.head {
+    height: 450px;
+}
+.addGoal {
+    display: flex;
+}

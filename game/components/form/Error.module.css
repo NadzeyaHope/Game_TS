@@ -1,0 +1,10 @@
+.root {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color-error);
+    height: 22px;
+}
+
+.root:first-letter {
+    text-transform: uppercase;
+}

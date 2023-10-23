@@ -1,0 +1,40 @@
+.root {
+    max-width: 800px;
+}
+.elements {
+    display: flex;
+    flex-wrap: wrap;
+}
+.refactor { position: absolute}
+.number {
+    font-size: 100px;
+    font-family: -apple-system;
+    color: var(--bg-accent-color);
+    text-align: center;
+    position: relative;
+}
+
+.element {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    border: 1px #E3E1E1 solid;
+    margin: 20px 20px 10px 20px
+}
+.image {
+    width: 100px;
+    height: 100px;
+}
+.title {
+    color: var(--text-color);
+    max-width: 90%;
+}
+.description {
+    color: var(--text-color);
+    width: 100px;
+    flex-wrap: wrap;
+}
+.delete {
+    padding-left: 115px;
+}
