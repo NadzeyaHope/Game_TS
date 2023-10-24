@@ -5,7 +5,12 @@
     display: flex;
     flex-wrap: wrap;
 }
-.refactor { position: absolute}
+.refactor {
+    display: flex;
+    justify-content: end;
+    height: 25px;
+    text-align: end;
+}
 .number {
     font-size: 100px;
     font-family: -apple-system;
@@ -13,8 +18,8 @@
     text-align: center;
     position: relative;
 }
-
 .element {
+    padding: 5px;
     width: 150px;
     height: 200px;
     border-radius: 10px;
@@ -34,7 +39,4 @@
     color: var(--text-color);
     width: 100px;
     flex-wrap: wrap;
-}
-.delete {
-    padding-left: 115px;
 }

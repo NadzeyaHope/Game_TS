@@ -1,0 +1,12 @@
+.root {
+    border: 1px #d5d9d2 solid;
+    border-radius: 5px;
+    color: var(--bg-accent-color);
+}
+.delete {
+    color: #d9250c;
+    padding: 5px;
+}
+.revive {
+    padding: 2px 5px;
+}

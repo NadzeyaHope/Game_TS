@@ -1,4 +1,5 @@
 import React from 'react';
+import classes from './Refactor.module.css';
 
 
 type Props = {
@@ -20,11 +21,12 @@ const Refactor = (props: Props) => {
     }
 
     return (
-        <div onMouseLeave={onOpenWin}>
-            <div onClick={(event)=>{onDelete(event, el)}}>
+        <div className={classes.root} onMouseLeave={onOpenWin}>
+            <div className={classes.delete} onClick={(event)=>{onDelete(event, el)}}>
                 delete
             </div>
-            <div>revive</div>
+            <hr/>
+            <div className={classes.revive}>revive</div>
         </div>
     );
 };

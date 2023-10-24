@@ -34,9 +34,11 @@ const Element = () => {
             <div className={classes.elements}>
                 {list.map((el: Record<string, any>, num: number) =>
                         <div className={classes.element}>
-                            {open ?
-                                <Refactor refresh={refresh} el={el} onOpenWin={onOpenWin} />
-                                 : <DeleteIcon onOpenWin={onOpenWin} width={20}/>}
+                            <div className={classes.refactor}>
+                                {open ?
+                                    <div ><Refactor refresh={refresh} el={el} onOpenWin={onOpenWin} /></div>
+                                    : <div><DeleteIcon onOpenWin={onOpenWin} width={20}/></div>}
+                            </div>
                                 <div className={classes.number}>
                                     {num+=1}
                                 </div>
